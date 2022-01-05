@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     position: relative;
 }
@@ -16,13 +16,126 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 .dallin{
     text-decoration: none;
     color: #fff;
     font-size: 30px;
-    font-weight: bold;
     padding-top: 10px;
     padding-left: 10%;
+    position: relative;
+    right: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbarlinks{
+    text-align: right;
+    background: rgb(7, 161, 233);
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+
+.navbarlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbarlinks ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbarlinks ul li a:hover{
+    color: black;
+}
+
+.leftsidebar{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(7, 161, 233);
+}
+
+.row{
+    padding: 0 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+}
+
+.leftcol{
+    flex-basis: 40%;
+}
+
+.rightcol{
+    flex-basis: 55%;
+}
+
+.leftcol img{
+    width: 80%;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 15px;
+    
+}
+
+.rightcol h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.rightcol p{
+    color: #777;
+    margin: 20px 0 70px;
+}
+
+.socials{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.icon{
+    width: 100px;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a .linkedin{
+    width: 180px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+    
+}
+
+a .github{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    background-color: white;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
 }
