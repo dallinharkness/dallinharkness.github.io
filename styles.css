@@ -10,3 +10,19 @@
     color: white;
     position: relative;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.dallin{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10%;
+}
