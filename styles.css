@@ -139,3 +139,7 @@ p{
 h1{
     font-family: 'Nunito', sans-serif;
 }
+
+.me{
+    border: 4px solid white;
+}
