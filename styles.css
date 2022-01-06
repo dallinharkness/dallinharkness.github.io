@@ -35,6 +35,7 @@ nav{
     background: rgb(7, 161, 233);
     padding: 10px 30px;
     border-bottom-left-radius: 18px;
+    
 }
 
 .navbarlinks ul li{
@@ -154,11 +155,18 @@ h1{
 }
 
 .aboutp{
-    width: 500px;
+    width: 600px;
     height: 200px;
     border: 2px solid black;
     align-items: center;
     position: relative;
-    left: 520px;
+    left: 500px;
 }
 
+.aboutpara{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+}
